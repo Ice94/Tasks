@@ -4,4 +4,6 @@ import com.bratek.tasks.domain.Task;
 
 public interface TaskService {
     Iterable<Task> list();
+
+    Task save(Task task);
 }
